@@ -5,7 +5,7 @@ if (!defined('WEBPATH')) die();
 <html lang="ja">
 <head>
 <?php zp_apply_filter('theme_head'); ?>
-<title><?php printGalleryTitle(); ?> | <?php echo gettext('Album index'); if ($_zp_page>1) echo "[$_zp_page]"; ?></title>
+<title>松本 拓也 | 写真家<?php if ($_zp_page>1) echo "[$_zp_page]"; ?></title>
 <?php printRSSHeaderLink('Gallery',gettext('Gallery RSS')); ?>
 <?php header_meta(); ?>
 </head>
@@ -24,7 +24,7 @@ if (!defined('WEBPATH')) die();
 	
 <main>
 	<?php $randomImage = getRandomImages(); ?>
-	<img src="<?php echo $randomImage->getSizedImage(800); ?>" />
+	<img src="<?php echo $randomImage->getSizedImage(800); ?>" class="main_img" />
 </main><!-- main -->
 			
 <?php footer(); ?>
