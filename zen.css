@@ -9,6 +9,7 @@ Date:     2015/03/27
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css");
 @import url("http://fonts.googleapis.com/css?family=Raleway:400,100,200,300");
+
 body {
 	color: #5b493e;
 	margin: 0;
@@ -159,10 +160,12 @@ nav ul {
 	width: 100%;
 	list-style-type: none;
 	padding: 0;
+	text-align: center;
 }
 
 nav li, .menu_menulabel {
-	width: 100%;
+	display: inline-block;
+	width: 70px;
 	height: 30px;
 	margin: 0px auto;
 	text-align: center;
@@ -173,11 +176,10 @@ nav li, .menu_menulabel {
 nav ul {
 	height: 25px;
 	margin: 20px 0;
+	text-align: right;
 }
 nav li, .menu_menulabel {
-	float: left;
 	margin-right: 20px;
-	width: 80px;
 }
 
 

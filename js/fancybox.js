@@ -2,7 +2,7 @@ $(function() {
 	$(".fancybox").fancybox({
 		
 		padding: 20,
-		margin: 60,
+		margin: 10,
 		loop: false,
 		
 		openEffect: 'fade',
