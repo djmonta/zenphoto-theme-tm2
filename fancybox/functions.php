@@ -47,7 +47,7 @@ class fancybox {
 					<figcaption><?php echo getImageTitle(); ?></figcaption>
 				</figure>
 			<?php } ?>
-		</ul>
+		</div>
 	<?php
 	}
 	function theme_bodyclose($_zp_themeroot) { ?>

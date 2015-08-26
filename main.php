@@ -24,7 +24,7 @@ if (!defined('WEBPATH')) die();
 
 <main>
 	<?php $randomImage = getRandomImages(); ?>
-	<img src="<?php echo $randomImage->getSizedImage(800); ?>" class="main_img"/>
+	<img src="<?php echo $randomImage->getSizedImage(800); ?>" class="main_img" />
 </main><!-- main -->
 
 <?php footer(); ?>

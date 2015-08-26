@@ -1,18 +1,18 @@
 $(function() {
 
-	$('.thumbnails figure').livingFade({ 
+	$('.thumbnails').livingFade({ 
 		maxDelay: 1,
 		minSpeed: 1,
 		maxSpeed: 1,
-		affected: '.photoswipe',
+		affected: 'figure',
 		fadeTo: 0,
 	});
 
-	$('.thumbnails figure').livingFade({ 
+	$('.thumbnails').livingFade({ 
 		maxDelay: 2200,
 		minSpeed: 1800,
 		maxSpeed: 900,
-		affected: '.photoswipe',
+		affected: 'figure',
 		fadeTo: 1,
 	});
 

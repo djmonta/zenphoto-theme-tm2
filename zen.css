@@ -3,18 +3,17 @@
 T.M Style
 Name:     T.M Style
 Designer: Sachiko Miyamoto
-URL:      monta.ampomtan.com
+URL:      http://monta.ampomtan.com
 Date:     2015/03/27
 ----------------------------------------------- */
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css");
-@import url("http://fonts.googleapis.com/css?family=Droid+Serif:400,700");
-
+@import url("http://fonts.googleapis.com/css?family=Noto+Serif:400,700");
 body {
 	color: #494949;
 	margin: 0;
 	padding: 0;
-	font-family: 'Droid Serif', serif;
+	font-family: 'Noto Serif', serif;
 	font-size: .9rem;
 }
 
@@ -45,7 +44,15 @@ img, a img {
 }
 
 header {
-	margin: 20px auto 40px auto;
+	margin: 20px auto;
+}
+
+@media screen and (min-width: 1024px) {
+
+	header {
+		margin: 20px auto 40px auto;
+	}
+
 }
 
 h1 a {
@@ -71,7 +78,7 @@ main p {
 footer {
 	clear: both;
 	text-align: center;
-	margin: 40px 0px 0px;
+	margin: 100px 0px 0px;
 	padding: 20px;
 	font-size: .7rem;
 	max-width: 100%;
@@ -80,7 +87,7 @@ footer {
 
 @media screen and (min-width: 1024px) {
 	header, main {
-		width: 960px;
+		width: 1020px;
 	}
 
 	h1 a {
@@ -91,7 +98,6 @@ footer {
 	nav {
 		float: right;
 	}
-
 }
 
 /* @end */
@@ -120,9 +126,9 @@ footer {
 .thumbnails figure {
 	float: left;
 	list-style: none;
-	width: 170px;
-	height: 170px;
-	margin: 10px;
+	width: 100px;
+	height: 100px;
+	margin: 20px;
 }
 
 .thumbnails figure a {
@@ -137,19 +143,41 @@ footer {
 	display: none;
 }
 
+@media screen and (max-width: 320px) {
+	.thumbnails figure {
+		margin: 5px;
+	}
+}
+
 /* Menu
 ------------------------------ */
-nav {
+nav ul {
+	margin: 20px auto;
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
 }
+
+nav li, .menu_menulabel {
+	width: 100%;
+	height: 30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
 
 nav ul {
 	height: 25px;
 	margin: 20px 0;
 }
 nav li, .menu_menulabel {
-	list-style-type: none;
 	float: left;
 	margin-right: 20px;
+	width: 80px;
+}
+
+
 }
 
 /* clearfix

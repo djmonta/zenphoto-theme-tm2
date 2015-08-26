@@ -43,7 +43,7 @@ function header_meta() {
 function footer() {
 	global $_zp_themeroot;
 ?>
-	<footer>
+	<footer class="clearfix">
 		Copyright &copy; 2015 Takuya Matsumoto.
 	</footer>
 <?php
