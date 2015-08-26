@@ -1,7 +1,7 @@
 $(function() {
 	$(".fancybox").fancybox({
 		
-		padding: 0,
+		padding: 20,
 		margin: 60,
 		loop: false,
 		
@@ -28,9 +28,8 @@ $(function() {
 			},
 			overlay : {
 				speedIn : 400,
-				opacity : 1,
 				css : {
-						'background-color' : '#fff'
+						'background' : 'rgba(111, 91, 80, 0.6)'
 					},
 				closeClick: false
 			},

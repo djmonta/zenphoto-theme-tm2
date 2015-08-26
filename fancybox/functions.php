@@ -16,7 +16,6 @@ class fancybox {
 		<script src="<?php echo $_zp_themeroot; ?>/js/jquery.fancybox.js"></script>
 		<script src="<?php echo $_zp_themeroot; ?>/js/jquery.livingfade-0.2.js"></script>
 		<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/css/jquery.fancybox.css" type="text/css" />
-		<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/css/fancybox.css" type="text/css" />
 
 	<?php
 	return false;
