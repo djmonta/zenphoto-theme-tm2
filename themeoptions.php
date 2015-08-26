@@ -15,12 +15,11 @@ class ThemeOptions {
 		setThemeOptionDefault('image_size', 1000, NULL, 'tm2');
 		setThemeOptionDefault('image_use_side', 'longest', NULL, 'tm2');
 		setThemeOptionDefault('thumb_transition', 1);
-		setThemeOptionDefault('thumb_size', 100, NULL, 'tm2');
-		setThemeOptionDefault('thumb_size', 100, NULL, 'tm2');
-		setThemeOptionDefault('thumb_crop_width', 100);
-		setThemeOptionDefault('thumb_crop_height', 100);
+		setThemeOptionDefault('thumb_size', 200, NULL, 'tm2');
+		setThemeOptionDefault('thumb_crop_width', 200);
+		//setThemeOptionDefault('thumb_crop_height', 200);
 		setThemeOptionDefault('thumb_crop', 0);
-		setThemeOptionDefault('tm2_personality', 'photoswipe');
+		setThemeOptionDefault('tm2_personality', 'lightbox');
 		setThemeOptionDefault('tm2_transition', 'slide-hori');
 		setThemeOptionDefault('tm2_caption_location', 'image');
 		setThemeOptionDefault('tm2_menu', 'tm2');
@@ -31,8 +30,7 @@ class ThemeOptions {
 		}
 		if (class_exists('cacheManager')) {
 			cacheManager::deleteThemeCacheSizes('tm2');
-			//cacheManager::addThemeCacheSize('tm2', 700, NULL, NULL, NULL, NULL, NULL, NULL, false, getOption('fullimage_watermark'), NULL, NULL);
-			cacheManager::addThemeCacheSize('tm2', 100, NULL, NULL, getThemeOption('thumb_crop_width'), getThemeOption('thumb_crop_height'), NULL, NULL, true, getOption('Image_watermark'), NULL, NULL);
+			cacheManager::addThemeCacheSize('tm2', NULL, getThemeOption('thumb_crop_width'), NULL, NULL, NULL, NULL, NULL, true, getOption('Image_watermark'), NULL, NULL);
 			cacheManager::addThemeCacheSize('tm2', 1000, NULL, NULL, NULL, NULL, NULL, NULL, false, getOption('Image_watermark'), NULL, NULL);
 
 		}

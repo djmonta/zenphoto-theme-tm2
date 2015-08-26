@@ -11,6 +11,7 @@ Date:     2015/03/27
 @import url("http://fonts.googleapis.com/css?family=Raleway:400,100,200,300");
 
 body {
+	background: #000;
 	color: #5b493e;
 	margin: 0;
 	padding: 0;
@@ -72,6 +73,12 @@ main {
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 375px) {
+	main {
+		padding: 0px 10px;
+	}
+}
+
 main .main_img {
 	max-width: 100%;
 }
@@ -89,9 +96,9 @@ footer {
 	max-width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
 	header, main {
-		width: 1020px;
+		width: 1200px;
 	}
 
 	h1 a {
@@ -130,17 +137,14 @@ footer {
 
 .thumbnails figure {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
-	margin: 20px;
-}
-
-.thumbnails figure a {
-	line-height: 100px;
+	width: 18%;
+	height: auto;
+	margin: 10px 5px;
 }
 
 .thumbnails figure a img {
 	vertical-align: middle;
+	max-width: 100%;
 }
 
 .thumbnails figcaption {
@@ -149,6 +153,7 @@ footer {
 
 @media screen and (max-width: 375px) {
 	.thumbnails figure {
+		width: 48%;
 		margin: 10px 2px;
 	}
 }
