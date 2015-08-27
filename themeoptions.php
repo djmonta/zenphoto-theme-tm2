@@ -15,9 +15,9 @@ class ThemeOptions {
 		setThemeOptionDefault('image_size', 1000, NULL, 'tm2');
 		setThemeOptionDefault('image_use_side', 'longest', NULL, 'tm2');
 		setThemeOptionDefault('thumb_transition', 1);
-		setThemeOptionDefault('thumb_size', 200, NULL, 'tm2');
-		setThemeOptionDefault('thumb_crop_width', 200);
-		//setThemeOptionDefault('thumb_crop_height', 200);
+		setThemeOptionDefault('thumb_size', 300, NULL, 'tm2');
+		setThemeOptionDefault('thumb_crop_width', 300);
+		setThemeOptionDefault('thumb_crop_height', 300);
 		setThemeOptionDefault('thumb_crop', 0);
 		setThemeOptionDefault('tm2_personality', 'lightbox');
 		setThemeOptionDefault('tm2_transition', 'slide-hori');
@@ -55,7 +55,7 @@ class ThemeOptions {
 		}
   	$options = array(
   								gettext('Theme personality') => array('key' => 'tm2_personality', 'type' => OPTION_TYPE_SELECTOR,
-															'selections' => array(gettext('Image page') => 'image_page', gettext('lightbox') => 'lightbox', gettext('fancybox') => 'fancybox', gettext('photoswipe') => 'photoswipe', gettext('Image gallery') => 'image_gallery'),
+															'selections' => array(gettext('Image page') => 'image_page', gettext('lightbox') => 'lightbox', gettext('fancybox') => 'fancybox', gettext('photoswipe') => 'photoswipe', gettext('masonry') => 'masonry', gettext('Image gallery') => 'image_gallery'),
 															'desc' => gettext('Select the theme personality')),
   								gettext('Allow search') => array('key' => 'Allow_search', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext('Set to enable search form.')),
 						  		gettext('Allow cloud') => array('key' => 'Allow_cloud', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext('Set to enable tag cloud for album page.')),

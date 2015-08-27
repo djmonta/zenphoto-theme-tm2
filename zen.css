@@ -26,12 +26,12 @@ a {
 }
 
 a:hover {
-	color: #5b493e;
+	color: #a86f00;
 	text-decoration: none;
 }
 
 a:active, a.active {
-	color: #5b493e;
+	color: #a86f00;
 }
 
 hr {
@@ -80,7 +80,7 @@ main {
 }
 
 main .main_img {
-	max-width: 100%;
+	max-width: 90%;
 }
 
 main p {
@@ -145,6 +145,7 @@ footer {
 .thumbnails figure a img {
 	vertical-align: middle;
 	max-width: 100%;
+	height: auto;
 }
 
 .thumbnails figcaption {

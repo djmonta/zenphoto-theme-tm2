@@ -8,9 +8,9 @@ require_once(SERVERPATH.'/'.THEMEFOLDER.'/tm2/'.$personality.'/functions.php');
 <head>
 	<?php zp_apply_filter('theme_head'); ?>
 	<title>松本 拓也 | 写真家 | <?php echo html_encode(getAlbumTitle()); if ($_zp_page>1) echo "[$_zp_page]"; ?></title>
-	<?php $personality->theme_head($_zp_themeroot); ?>
 	<?php printRSSHeaderLink('Album',getAlbumTitle()); ?>
 	<?php header_meta(); ?>
+	<?php $personality->theme_head($_zp_themeroot); ?>
 
 </head>
 <body>
