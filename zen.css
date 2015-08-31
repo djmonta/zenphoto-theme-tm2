@@ -142,9 +142,9 @@ footer {
 
 .thumbnails figure {
 	display: inline-block;
-	width: 18%;
+	width: 14.5%;
 	height: auto;
-	margin: 15px 10px;
+	margin: 1%;
 }
 
 .thumbnails figure a img {
@@ -182,7 +182,7 @@ nav li, .menu_menulabel {
 	text-align: center;
 	font-size: 1rem;
 	font-weight: bold;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 @media screen and (min-width: 1024px) {

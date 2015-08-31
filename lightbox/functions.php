@@ -41,7 +41,7 @@ class lightbox {
 					}
 					?>
 					<a href="<?php echo $link; ?>" title="<?php echo sanitize(getImageTitle()); ?>" data-lightbox="<?php echo sanitize(getAlbumTitle()); ?>">
-					<?php printCustomSizedImage(getAnnotatedImageTitle(),null,200,null,null,null,null,null,null,null,true,null); ?>
+						<?php printImageThumb(getImageTitle()); ?>
 					</a>
 					<figcaption><?php echo getImageTitle(); ?></figcaption>
 				</figure>
