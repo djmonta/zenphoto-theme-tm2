@@ -142,7 +142,7 @@ footer {
 
 .thumbnails figure {
 	display: inline-block;
-	width: 14.5%;
+	width: 14%;
 	height: auto;
 	margin: 1%;
 }
@@ -159,8 +159,8 @@ footer {
 
 @media screen and (max-width: 375px) {
 	.thumbnails figure {
-		width: 48%;
-		margin: 10px 2px;
+		width: 29%;
+		margin: 5px;
 	}
 }
 
