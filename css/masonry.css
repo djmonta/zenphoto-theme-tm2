@@ -27,6 +27,7 @@
 	.grid-sizer,
 	.thumbnails figure {
 		width: 17.5%;
+		margin: 0.8%;
 	}
 }
 
@@ -35,5 +36,6 @@
 	.grid-sizer,
 	.thumbnails figure {
 		width: 14%;
+		margin: 0.85%;
 	}
 }

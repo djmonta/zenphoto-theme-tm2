@@ -13,7 +13,7 @@ if (!defined('WEBPATH')) die();
 <?php zp_apply_filter('theme_body_open'); ?>
 <header>
 	<h1 class="title">
-		<a href="<?php echo html_encode(getGalleryIndexURL(false)); ?>" title="<?php echo gettext('Gallery Index'); ?>"><?php echo html_encode(getGalleryTitle()); ?></a>
+		<a href="<?php echo html_encode(getGalleryIndexURL()); ?>" title="<?php printGalleryTitle(); ?>"><?php echo getGalleryTitle(); ?></a>
 	</h1>
 	<nav class="menu">
 		<?php if(function_exists('printCustomMenu') && ($menu = getOption('tm2_menu'))) {
