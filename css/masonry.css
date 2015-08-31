@@ -2,7 +2,7 @@
 .grid-sizer,
 .thumbnails figure {
 	display: block;
-	width: 46%;
+	width: 30%;
 	height: auto;
 	margin: 5px;
 }
@@ -14,26 +14,26 @@
 }
 
 @media screen and (min-width: 640px) {
-/*3columns*/
+/*4columns*/
 	.grid-sizer,
 	.thumbnails figure {
-		width: 32%;
-		margin: 0.3%;
+		width: 22%;
+		margin: 0.75%;
 	}
 }
 
 @media screen and (min-width: 800px) {
-/*4columns*/
+/*5columns*/
 	.grid-sizer,
 	.thumbnails figure {
-		width: 24%;
+		width: 17.5%;
 	}
 }
 
 @media screen and (min-width: 1600px) {
-/*5columns*/
+/*6columns*/
 	.grid-sizer,
 	.thumbnails figure {
-		width: 18.6%;
+		width: 14%;
 	}
 }

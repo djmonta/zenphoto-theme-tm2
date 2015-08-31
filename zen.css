@@ -8,16 +8,14 @@ Date:     2015/03/27
 ----------------------------------------------- */
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css");
-@import url("http://fonts.googleapis.com/css?family=Raleway:400,100,200,300");
 
 body {
 	background: #000;
 	color: #5b493e;
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway', serif;
+	font-family: "Apercu Bold", Calibri, sans-serif;
 	font-size: .9rem;
-	font-weight: 200;
 }
 
 a {
@@ -97,8 +95,11 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
-	header, main {
-		width: 75%;
+	header {
+		width: 80%;
+	}
+	main {
+		width: 90%;
 	}
 
 	h1 a {
@@ -175,6 +176,9 @@ nav li, .menu_menulabel {
 	height: 30px;
 	margin: 0px auto;
 	text-align: center;
+	font-size: 1.1rem;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 @media screen and (min-width: 1024px) {
