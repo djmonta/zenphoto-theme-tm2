@@ -102,6 +102,10 @@ footer {
 		width: 90%;
 	}
 
+	.title {
+		text-align: left;
+	}
+	
 	h1 a {
 		float: left;
 		padding: 0;
